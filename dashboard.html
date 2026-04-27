@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Website Hari Kartini</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">🌸 Kartini</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="#sejarah">Sejarah</a></li>
+                <li><a href="#tokoh">Tokoh</a></li>
+                <li><span class="user-name" id="userName"></span></li>
+                <li><button id="logoutBtn" class="btn-logout">Logout</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="dashboard-header">
+        <div class="container">
+            <h1>Selamat Datang, <span id="welcomeName"></span>! 👋</h1>
+            <p>Di Website Hari Kartini</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Menu Utama</h2>
+            <div class="dashboard-grid">
+                <div class="dashboard-card">
+                    <div class="card-icon">📚</div>
+                    <h3>Belajar Sejarah</h3>
+                    <p>Pelajari lebih lanjut tentang sejarah dan perjuangan R.A. Kartini</p>
+                    <a href="#sejarah" class="btn-secondary">Mulai Belajar</a>
+                </div>
+                <div class="dashboard-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Kuis Interaktif</h3>
+                    <p>Uji pengetahuan Anda tentang Hari Kartini dengan kuis menarik</p>
+                    <button class="btn-secondary" onclick="alert('Kuis akan segera tersedia!')">Mulai Kuis</button>
+                </div>
+                <div class="dashboard-card">
+                    <div class="card-icon">📝</div>
+                    <h3>Artikel</h3>
+                    <p>Baca artikel menarik tentang emansipasi perempuan Indonesia</p>
+                    <button class="btn-secondary" onclick="alert('Artikel akan segera tersedia!')">Baca Artikel</button>
+                </div>
+                <div class="dashboard-card">
+                    <div class="card-icon">🏆</div>
+                    <h3>Prestasi</h3>
+                    <p>Lihat progress pembelajaran dan raih prestasi Anda</p>
+                    <button class="btn-secondary" onclick="alert('Fitur Prestasi akan segera tersedia!')">Lihat Prestasi</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Jelajahi Lebih Lanjut</h2>
+            <div class="content-grid">
+                <div class="card">
+                    <h3>📖 Biografi Kartini</h3>
+                    <p>Ketahui lebih banyak tentang kehidupan R.A. Kartini dari lahir hingga akhir hayatnya.</p>
+                </div>
+                <div class="card">
+                    <h3>💡 Pemikiran Kartini</h3>
+                    <p>Pelajari pemikiran-pemikiran Kartini tentang pendidikan dan emansiasi perempuan.</p>
+                </div>
+                <div class="card">
+                    <h3>🌟 Warisan Kartini</h3>
+                    <p>Bagaimana warisan Kartini terus hidup dan inspire generasi Indonesia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Website Hari Kartini. Dibuat dengan ❤️ untuk Indonesia.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
